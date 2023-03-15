@@ -16,6 +16,13 @@
     border: 1px solid var(--primary);
 }
 
+.btn--primary--outlined{
+    background-color: black;
+    color: #fff;
+    border: 1px solid black;
+    width: 100%;
+}
+
 .btn--outline{
     background-color: transparent;
     color: #fff;

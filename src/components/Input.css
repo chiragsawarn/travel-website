@@ -1,0 +1,28 @@
+.input{
+    padding:8px 20px;
+    border-radius: 2px;
+    border: 0.5px solid #BBC1E1;
+}
+
+.input:focus{
+    outline: none;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.label{
+    padding: 2px 5px;
+    font-size: 1rem;
+    color:#000;
+}
+
+.error{
+    font-size: 1rem;
+    color: crimson;
+    padding: 2px 5px;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+}

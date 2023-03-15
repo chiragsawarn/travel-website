@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color:#242424;
+    width:40%;
+    border-radius: 2%;
+}
+
+.btn{
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background: #fff;
+    color: #242424;
+    transition: all 0.3s ease-out;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.form-container{
+    padding: 20px;
+}
+
+.form-heading{
+    background-color: #000;
+    color: #fff;
+    font-size:20px;
+    padding: 8px 20px;
+    text-align:left;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
